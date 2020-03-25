@@ -21,4 +21,4 @@ $class = $language;
 
 ## Sources
 
-* [Source](https://parsedown.org/))
+* [Source](https://parsedown.org/)

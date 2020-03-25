@@ -18,7 +18,7 @@ Condition vrai ou faux.
 
 ```html
 <div *ngIf='userHasPet'>
-    {{ user.pet.name }}
+    { { user.pet.name }}
 </div>
 ```
 
@@ -26,7 +26,7 @@ Condition complexes
 
 ```html
 <div *ngIf='books > 0'>
-    {{ books }}
+    { { books }}
 </div>
 ```
 
@@ -34,7 +34,7 @@ Condition complexes
 
 ```html
 <div *ngIf='books > 0; else select'>
-    {{ books }}
+    { { books }}
 </div>
 
 <ng-template #select>

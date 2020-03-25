@@ -9,11 +9,11 @@ Nous regroupons ici un ensemble d'astuces pour le developpment d'un projet Angul
 ### Safe Navigation
 
 ```html
-    {{ name?firstname }}
+    { { name?firstname }}
 ```
 
 ### Appeler une fonction dans une vue
 
 ```html
-    {{ getList() }}
+    { { getList() }}
 ```
