@@ -13,12 +13,12 @@ composer require laravel/ui:^1.0 --dev
 php artisan ui vue
 npm install
 npm run watch
-```
+``` 
 
 il faut ensuite ajouter vue au projet 
 
 ```html
-<link href="{{ asset('css/app.css')}} ">
+<link href="css/app.css">
 
 <body>
     <div id="app">
@@ -26,7 +26,7 @@ il faut ensuite ajouter vue au projet
     </div>
 </body>
 
-<script href="{{ asset('/js/app.js')}} ">
+<script href="/js/app.js">
 ```
 
 [Source](https://laravel.com/docs/6.x/frontend#writing-vue-components)
@@ -90,7 +90,7 @@ send(){
         message: 'My message'
     })
 }
-```
+``` 
 
 reception
 Avec blade on récupère les données que l'on passe au js
@@ -108,4 +108,4 @@ export default{
         }
     }
 }
-```
+``` 

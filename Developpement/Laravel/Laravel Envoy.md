@@ -15,7 +15,7 @@ composer global require laravel/envoy
 
 Connexion à un serveur web via ssh
 
-```blade
+```html
 @servers(['web' => ['user@192.168.1.1']])
 
 @task('foo', ['on' => 'web'])
@@ -25,7 +25,7 @@ Connexion à un serveur web via ssh
 
 Connexion à un serveur local
 
-```blade
+```html
 @servers(['localhost' => '127.0.0.1'])
 
 @task('foo', ['on' => 'web'])

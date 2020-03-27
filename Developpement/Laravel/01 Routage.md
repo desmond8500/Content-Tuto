@@ -18,5 +18,5 @@ La route que nous avons crée :
 Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec un argument:
 
 ```html
-<a href="{{ route ('index',['arg' => 'arg']) }}">Mon lien</a>
+<a href="{!! route ('index',['arg' => 'arg']) !!}">Mon lien</a>
 ```
