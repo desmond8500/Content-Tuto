@@ -80,6 +80,7 @@ Le template doit toujours commencer avec une div de base
 Envoi
 ```html
 <form #submit.prevent="send">
+    <input v-model="message" placeholder="modifiez-moi">
     <button type="submit"> Valider </buttun>
 </form>
 ```
