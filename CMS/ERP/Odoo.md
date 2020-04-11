@@ -29,7 +29,7 @@ Nous allons installer **Openssh-server** pour pouvoir travailler plus facilement
 Pour pouvoir créer et éditer des utilisateurs il faut :  
 
 * Activer le __mode développeur__ (dans le menu de configuration)
-* Aller dans la section __Vente__ puis __Configuration__
+* Aller dans la section __Facture__ puis __Configuration__
 * Installer un plan comptable (HOADA pour l'Afrique de l'ouest)
 
 ## Liens d'exploitation
