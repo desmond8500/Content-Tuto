@@ -20,3 +20,5 @@ Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec
 ```html
 <a href="{!! route ('index',['arg' => 'arg']) !!}">Mon lien</a>
 ```
+
+

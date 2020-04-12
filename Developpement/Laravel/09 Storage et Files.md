@@ -2,7 +2,7 @@
 
 ## Description
 
-Les objets **Storage** et **File** permettent de gérer faciliment les fichiers avec laravel. 
+Les objets **Storage** et **File** permettent de gérer facilement le traitement et le stockage de fichiers avec laravel. 
 
 ```php
 // Require
