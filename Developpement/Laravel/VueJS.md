@@ -110,3 +110,65 @@ export default{
     }
 }
 ``` 
+
+
+## SPA avec Vue
+
+### installation du Vue Router
+
+Pour faire une SPA il faudra faire des coniguration supplémentaires et se passer des vues blade. Il faudra commencer par installer le router de Vue.
+
+```shell
+npm install vue-router
+```
+
+Il faudra ensuite l'importer dan le fichier app.js
+
+```js
+require('./bootstrap');
+
+window.Vue = require('vue');
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+
+import Test1 from './components/Test/Test1Component.vue';
+import Test2 from './components/Test/Test2Component.vue';
+
+const routes = [
+    {   path: '/test1', component: Test1    },
+    {   path: '/test2', component: Test2    }
+];
+
+const router = new VueRouter({routes});
+
+const app = new Vue({
+    el: '#app',
+    router: router
+});
+```
+
+dans le fichier html
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{ {asset('css/app.css')}}">
+    <title>Vue JS</title>
+</head>
+<body>
+    <div id="app">
+        <router-link to='/test1'>Test1</router-link>
+        <router-link to='/test2'>Test2</router-link>
+
+        <router-view></router-view>
+    </div>
+    <script src="{ {asset('js/app.js')}} "></script>
+</body>
+</html>
+```
+
+
