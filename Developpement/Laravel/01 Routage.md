@@ -21,4 +21,8 @@ Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec
 <a href="{!! route ('index',['arg' => 'arg']) !!}">Mon lien</a>
 ```
 
+## Retourner une vue
 
+```php
+Route::view('/login', 'pages.login');
+```

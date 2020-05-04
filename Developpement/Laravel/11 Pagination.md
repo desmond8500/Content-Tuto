@@ -28,3 +28,5 @@ Coté vue
 </div>
 { { $images->links() }}
 ```
+
+Pour personnaliser la pagination il faut modifier le fichier `resources/views/vendor/pagination/bootstra4.blade.php`
