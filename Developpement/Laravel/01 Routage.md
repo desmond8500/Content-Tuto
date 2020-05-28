@@ -1,7 +1,7 @@
 # Routage laravel
 
 ## Description
-
+Gestion des la navigation.
 
 ## Utilisation
 
@@ -21,8 +21,29 @@ Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec
 <a href="{!! route ('index',['arg' => 'arg']) !!}">Mon lien</a>
 ```
 
-## Retourner une vue
+## Routes
+
+### Route avec une fonction
 
 ```php
-Route::view('/login', 'pages.login');
+Route::get('users/{id}', function ($id) {
+});
+``` 
+
+### Route avec une vue
+
+```php
+Route::view('URI', 'viewName');
 ```
+
+### Route avec un controlleur
+
+```php
+Route::get('users/{id}', 'Controller@method');
+```
+
+### Route avec une nom
+
+```php
+Route::view('URI', 'viewName')->name('nom');
+

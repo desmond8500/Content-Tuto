@@ -5,13 +5,13 @@
 ## Apache
 
 ```shell
-sudo apt-get install apache2
+sudo apt-get install apache2 build-essential
 ```
 
 ## PHP
 
 ```shell
-sudo apt-get install php libapache2-mod-php php-curl php-gd php-intl php-json php-mbstring php-xml php-zip
+sudo apt-get install php libapache2-mod-php php-curl php-gd php-intl php-json php-mbstring php-xml php-zip sqlite3
 ```
 
 ## MySQL
@@ -66,11 +66,15 @@ Il faut activer les extensions:
 
 ## Autres logiciels utiles
 
+```language
+sudo apt-get install git build-essential
+```
+
 | Software | Utilité | Commande |
 |:-------- | :------- | :------- |
 | open ssh server | Accès distant | sudo apt-get install openssh-server |
-| Git | Gestion de version | sudo apt-get install openssh-server |
-| aaa | aaa | aaa |
+| Git | Gestion de version | sudo apt-get install git |
+| Composer | Gestion de dépendances | sudo apt-get install composer |
 
 ## Sources
 

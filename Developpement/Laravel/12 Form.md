@@ -12,7 +12,7 @@ Ajouter un client
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="addClient{ { $client->id}}" tabindex="-1" role="dialog" aria-labelledby="addClient{ { $client->id}}Label" aria-hidden="true">
+<div class="modal fade" id="addClient{{ $client->id}}" tabindex="-1" role="dialog" aria-labelledby="addClient{ { $client->id}}Label" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -21,7 +21,7 @@ Ajouter un client
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="{ {route('clients')}}" method="POST">
+            <form action="{{route('clients')}}" method="POST">
                 @csrf
                 <div class="modal-body">
                     <div class="form-group">
@@ -56,7 +56,7 @@ Ajouter un client
 add
 
 ```html
-<form action="{ {route('clients')}}" method="post">
+<form action="{{route('clients')}}" method="post">
     @csrf
 </form>
 ```
@@ -64,7 +64,7 @@ add
 update
 
 ```html
-<form action="{ {route('clients.update',['client'=>$client])}}" method="post">
+<form action="{{route('clients.update',['client'=>$client])}}" method="post">
     @csrf
     @method('put')
 </form>
@@ -73,7 +73,7 @@ update
 delete
 
 ```html
-<form action="{ {route('clients.destroy',['client'=>$client])}}" method="POST">
+<form action="{{route('clients.destroy',['client'=>$client])}}" method="POST">
     @csrf
     @method('delete')
 </form>
