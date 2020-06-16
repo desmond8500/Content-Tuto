@@ -7,14 +7,15 @@ ionic start
 
 ### Change text with a button
 In the html file :
-```
+```html
 <ion-content>
   <p>{{ text }}</p>
   <ion-button (click)='onChangeText()'>ChangeText</ion-button>
 </ion-content>
 ```
+
 In the typescript file
-```
+```ts
 text ="Hello";
 onChangeText(){
   this.text ="hello world !!";
@@ -23,7 +24,7 @@ onChangeText(){
 
 ### transform Simple html file to ionic app
 use
-```
+```html
 <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
 <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
 ```
