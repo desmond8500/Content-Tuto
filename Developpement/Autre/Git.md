@@ -34,4 +34,4 @@ git checkout dev-diene
 git merge develop
 ```
 
-### Gesrion des conflits (fight)
+### Gestion des conflits (fight)

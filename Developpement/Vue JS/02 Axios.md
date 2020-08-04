@@ -21,6 +21,6 @@ new Vue({
 
 ```html
 <div id="app">
-  { { info }}
+  {{ info }}
 </div>
 ```
