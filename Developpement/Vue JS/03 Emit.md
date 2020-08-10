@@ -27,7 +27,7 @@ methods: {
 
 Coté parent
 
-```vue
+```js
 <template>
     <div>
         <client-add @task-added="refresh"></client-add>
