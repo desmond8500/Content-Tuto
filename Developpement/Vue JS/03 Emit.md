@@ -27,7 +27,7 @@ methods: {
 
 Coté parent
 
-```js
+```vue
 <template>
     <div>
         <client-add @task-added="refresh"></client-add>
@@ -48,3 +48,55 @@ Coté parent
 </script>
 
 ```
+
+## Methode 2
+
+dans le coposant fils
+
+```html
+<template>
+    <div>
+        <button class='btn btn-primary' @click="$emit('chosenItem', value)">
+            {{item}}
+        </button>
+    </div>
+</template>
+<script>
+    export default {
+        name: 'child',
+        props: ['list']
+    }
+</script>
+```
+
+Dans le composant parent 
+
+```html
+<template>
+    <child  :list='listdata' @chosenItem="getItem"/>
+</template>
+<script>
+    import child from './child.vue';
+    export default {
+        name: 'parent',
+        components: [ 
+            child
+        ]
+        data() {
+            return {
+                listdata: {
+                    name: 'naruto',
+                    grade: 'junin'
+                },
+                myvalue: ''
+            }
+        },
+        methods:{
+            getItem(value){
+                this.myvalue = value;
+            }
+        }
+    }
+</script>
+```
+

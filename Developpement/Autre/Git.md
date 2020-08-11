@@ -34,4 +34,22 @@ git checkout dev-diene
 git merge develop
 ```
 
-### Gestion des conflits (fight)
+## Git
+
+### Créér un nouveau répo 
+
+```bash
+echo "# senecolo4" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/desmond8500/senecolo4.git
+git push -u origin master
+```
+
+### Lier à un répo qui existe
+
+```bash
+git remote add origin https://github.com/desmond8500/senecolo4.git
+git push -u origin master
+```
