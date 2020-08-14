@@ -23,3 +23,11 @@ npm create vuepress
 ```bash
 vuepress dev
 ```
+
+## Build 
+
+Pour compiler le projet 
+
+```bash
+vuepress build
+```
