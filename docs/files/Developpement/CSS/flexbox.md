@@ -20,6 +20,38 @@
 }
 ```
 
+## Afficher des éléments équitablement répartis 
+
+```html
+ <div class="card-body bod" >
+    <div class="number" v-for="item in list" :key="item.id">
+        <div class="text-center">
+            <i :class="item.icon"></i>
+        </div>
+        <div>
+            {{ item.name }}
+        </div>
+    </div>
+</div>
+```
+
+```css
+.bod{
+        display: flex;
+        justify-content: space-between;
+        background: blueviolet;
+        color: white;
+        border: 3px solid black;
+    }
+.number{
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 50px;
+}
+```
+
+![sdfsd]('./img1.png')
+
 
 ## Sources
 
