@@ -37,11 +37,11 @@
 
 ```css
 .bod{
-        display: flex;
-        justify-content: space-between;
-        background: blueviolet;
-        color: white;
-        border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    background: blueviolet;
+    color: white;
+    border: 3px solid black;
     }
 .number{
     border: 3px solid black;
@@ -50,7 +50,7 @@
 }
 ```
 
-![sdfsd]('./img1.png')
+![sdfsd]('http://mydash.yonkou.info/storage/Modules/Medias/Images/0/img1.png')
 
 
 ## Sources
