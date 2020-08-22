@@ -19,7 +19,7 @@ Dans le fichier index il faut ajouter la propriété props true sur la route con
     name: "Boutique", 
     props: true,
     component: () => import( "../components/pages/boutiques/boutique.vue")
-  },
+},
 ```
 
 sur le composant de départ il faudra définir le nom du composant de base **name** et les paramètres **params**.

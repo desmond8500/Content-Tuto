@@ -24,3 +24,11 @@ new Vue({
   {{ info }}
 </div>
 ```
+
+## Vue Project 
+
+Dans un projet Vue il faut importer axios pour l'utiliser dans un composant.
+
+```js
+const axios = require('axios').default;
+```

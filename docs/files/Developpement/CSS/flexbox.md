@@ -56,3 +56,4 @@
 ## Sources
 
 * [Center](https://www.design-fluide.com/02-08-2018/centrer-horizontalement-flexbox/)
+* [Openclassrooms](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)

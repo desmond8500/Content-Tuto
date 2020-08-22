@@ -30,3 +30,10 @@ header("Access-Control-Allow-Methods: PUT, POST, GET, OPTIONS, DELETE");
 
 [Source](https://www.sshakil.com/blog/article/7/Enabling-CORS-for-Laravel-requested-by-Angular)
 
+### Création de l'API
+
+Création du controlleur
+
+```bash
+php artisan make:controller TestController --api
+```
