@@ -1,5 +1,7 @@
 # Composer
 
+![composer logo](https://getcomposer.org/img/logo-composer-transparent.png)  
+
 Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin.
 
 ## Mise à jour de dépendances avec composer
@@ -11,3 +13,4 @@ La mise à jour se fait via deux commandes :  `composer install` et `composer up
 ## Sources
 
 * [Site Officiel](https://getcomposer.org/)
+* [Composer update or install](https://medium.com/@favoriabs/composer-install-vs-composer-update-3737357c35a7)
