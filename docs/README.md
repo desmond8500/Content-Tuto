@@ -2,14 +2,14 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Gestion de tutos
-actionText: Quick Start →
+actionText: Consulter →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Tutoriels
+  details: Tutoriels sur le developpement d'applications Web
+- title: Snippets
+  details: Bouts de codes utiles pour le developpement web
+- title: Ressources
+  details: Liste un ensembles de ressources utiles
 footer: Made by kratos with ❤️
 ---
