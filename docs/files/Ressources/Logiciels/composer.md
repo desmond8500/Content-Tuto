@@ -10,6 +10,12 @@ La mise à jour se fait via deux commandes :  `composer install` et `composer up
 `composer install` permet de faire l'installation des dépendances et de garantir leur intégrité, cela permet aussi d'avoir les même versions dans le cas de projets en équipe.  
 `composer update` permet d'installer les dernière versions des packets, par contre dans ce cas la on est exposé aux bugs.
 
+## Installation sous Linux (Distribution basée sur Debian)
+
+```shell
+sudo apt-get install composer
+```
+
 ## Sources
 
 * [Site Officiel](https://getcomposer.org/)
