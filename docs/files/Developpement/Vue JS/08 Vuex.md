@@ -1,4 +1,4 @@
-# Vuex
+# VUE JS : Vuex
 
 
 ## Installation

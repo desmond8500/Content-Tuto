@@ -1,4 +1,4 @@
-# Infyom
+# Laravel : Infyom
 
 ## Description
 

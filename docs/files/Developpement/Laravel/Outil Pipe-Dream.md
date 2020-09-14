@@ -1,10 +1,10 @@
-# Notes de parcours
+# Laravel : Notes de parcours
 
 ## Etapes
 
 1. Créer un projet laravel
 
-    ```php
+    ```bash
      composer create-project --prefer-dist laravel/laravel ykQuotes
     ```
 
@@ -12,7 +12,7 @@
 
  Activer la dépendance file info dans le fichier php.ini.
 
-    ```php
+    ```bash
        composer require --dev pipe-dream/laravel
     ```
 
@@ -22,7 +22,7 @@
 
 1. Générer la clé
 
-    ```php
+    ```bash
         php artisan key:generate
     ```
 

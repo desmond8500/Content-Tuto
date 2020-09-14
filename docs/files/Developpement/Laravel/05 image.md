@@ -1,4 +1,4 @@
-# Stocker des images
+# Laravel : Stocker des images
 
 ## Fichier de config
 

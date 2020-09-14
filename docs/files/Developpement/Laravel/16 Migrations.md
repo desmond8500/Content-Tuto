@@ -1,4 +1,4 @@
-# Les migrations
+# Laravel : Les migrations
 
 ## Description
 

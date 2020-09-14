@@ -1,16 +1,21 @@
-composer require tcg/voyager
+# Laravel : 
 
+```bash
+composer require tcg/voyager
 php artisan voyager:install --with-dummy
 
+```
 
 
-    email: admin@admin.com
-    password: password
-
-    https://github.com/the-control-group/voyager
 
 
-    If you did not go with the dummy user, you may wish to assign admin privileges to an existing user. This can easily be done by running this command:
+email: admin@admin.com
+password: password
+
+https://github.com/the-control-group/voyager
+
+
+If you did not go with the dummy user, you may wish to assign admin privileges to an existing user. This can easily be done by running this command:
 
 php artisan voyager:admin your@email.com
 

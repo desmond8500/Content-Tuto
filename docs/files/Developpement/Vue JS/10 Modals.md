@@ -1,4 +1,4 @@
-# Modals
+# VUE JS : Modals
 
 ## Installation
 

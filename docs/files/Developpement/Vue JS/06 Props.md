@@ -1,4 +1,4 @@
-# Props Vue JS
+# VUE JS : Props Vue JS
 
 Permet d'envyer des données d'un composant vers un compsant fils.
 

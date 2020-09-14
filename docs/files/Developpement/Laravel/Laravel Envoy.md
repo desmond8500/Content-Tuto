@@ -1,4 +1,4 @@
-# Laravel Envoy
+# Laravel : Laravel Envoy
 
 ## Prérequis
 

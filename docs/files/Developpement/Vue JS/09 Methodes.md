@@ -1,4 +1,4 @@
-# Methodes
+# VUE JS : Methodes
 
 ## Watch
 

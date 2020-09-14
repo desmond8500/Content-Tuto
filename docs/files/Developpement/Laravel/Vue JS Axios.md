@@ -1,4 +1,4 @@
-# Axios
+# Laravel : Axios
 
 ## Description
 
@@ -9,8 +9,7 @@ C'est une librairei qui permet de faire des requettes HTTP
 Coté server 
 
 ```php
-public function index(Request $request)
-{
+public function index(Request $request){
     $test = Test::all();
     return response()->json($test);
 }
@@ -18,14 +17,13 @@ public function index(Request $request)
 
 Coté  frontend
 
-
 ```vue
 <template>
     <div>
         <h1>Bienvenue</h1>
         <ul>
             <li v-for="task in tasks" :key="task.id">
-                { { task.prenom }}
+                {{ task.prenom }}
             </li>
         </ul>
     </div>

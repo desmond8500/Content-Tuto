@@ -1,4 +1,4 @@
-# Vue JS et Laravel
+# Laravel : Vue JS 
 
 ## Description
 

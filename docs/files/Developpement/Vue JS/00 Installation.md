@@ -1,4 +1,4 @@
-# VUE JS
+# VUE JS : Installation et utilisation
 
 ## Description
 

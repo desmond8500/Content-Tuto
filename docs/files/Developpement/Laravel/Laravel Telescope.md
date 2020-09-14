@@ -1,4 +1,4 @@
-# Laravel Telescope
+# Laravel : Laravel Telescope
 
 ## Description
 

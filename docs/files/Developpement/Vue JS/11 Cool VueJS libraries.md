@@ -1,4 +1,4 @@
-# Vue JS Libraries
+# Vue JS : Libraries
 
 ## Vue JS Popover
 

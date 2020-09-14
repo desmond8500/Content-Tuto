@@ -26,6 +26,12 @@ sudo apt-get install mysql-server php-mysql
 sudo apt-get install mariadb-server php-mysql
 ```
 
+## Phpmyadmin
+
+```shell
+sudo apt-get install php-myadmin
+```
+
 ## Configuration de lancement
 
 Pour empêcher le demmarage automatique il faut :
@@ -66,15 +72,23 @@ Il faut activer les extensions:
 
 ## Autres logiciels utiles
 
+### Git
+
 ```language
-sudo apt-get install git build-essential
+sudo apt-get install git 
 ```
 
-| Software | Utilité | Commande |
-|:-------- | :------- | :------- |
-| open ssh server | Accès distant | sudo apt-get install openssh-server |
-| Git | Gestion de version | sudo apt-get install git |
-| Composer | Gestion de dépendances | sudo apt-get install composer |
+### Composer
+
+```bash
+sudo apt-get install composer
+```
+
+### Open shh server
+
+```bash
+sudo apt-get install openssh-server
+```
 
 ## Sources
 

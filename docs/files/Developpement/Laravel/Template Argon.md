@@ -1,4 +1,4 @@
-# Argon template for Laravel
+# Laravel : Argon template for Laravel
 
 ## Description
 

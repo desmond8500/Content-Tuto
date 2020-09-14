@@ -1,4 +1,4 @@
-# Déployer un projet laravel
+# Laravel : Déployer un projet laravel
 
 ## Préréquis
 

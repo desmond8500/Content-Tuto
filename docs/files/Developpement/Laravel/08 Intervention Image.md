@@ -1,4 +1,4 @@
-# Intervention Image
+# Laravel : Intervention Image
 
 ## Description
 

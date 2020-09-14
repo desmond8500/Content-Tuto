@@ -1,4 +1,4 @@
-# Faker
+# Laravel : Faker
 
 ## Description
 
