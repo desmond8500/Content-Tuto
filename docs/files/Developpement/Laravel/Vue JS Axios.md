@@ -190,3 +190,11 @@ Dans le fichier `app.js`
 ```js
 Vue.component('modal-component', require('./components/Test/ModalComponent.vue').default);
 ```
+
+## Définir l'url par défaut 
+
+Dans le fichier `bootstrap.js` il faut ajouter : 
+
+```js
+window.axios.defaults.baseURL = 'http://example.test';
+```

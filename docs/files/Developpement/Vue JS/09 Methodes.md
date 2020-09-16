@@ -23,3 +23,17 @@ var vm = new Vue({
 })
 vm.a = 2 // => nouveau : 2, ancien : 1
 ```
+
+## Map 
+
+Permet de mettre à jour un objet. 
+
+```js
+this.image2 = this.images.map((item) => {
+    return {
+        src: 'storage/'+ item.folder,
+        thumb:'storage/'+ item.folder,
+        subHtml:'caption'
+    }
+}) ;
+```

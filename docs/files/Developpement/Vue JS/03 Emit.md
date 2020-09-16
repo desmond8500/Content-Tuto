@@ -100,3 +100,48 @@ Dans le composant parent
 </script>
 ```
 
+## Auto update 
+
+Coté parent 
+
+```vue
+<template>
+    <client-add @client="getClient"></client-add>
+</template>
+
+<script>
+    data: () =>({
+        clients: null,
+    })
+    getClient(client){
+            this.clients = [...this.clients, client.data.data]
+    }
+</script>
+```
+
+coté fils
+
+```vue
+<template>
+    <button type="button" v-on:click='store'  class="btn btn-primary">Ajouter</button>
+</template>
+
+<script>
+    store(){
+            axios.post('/projet__clients',{
+                name: this.client.name,
+                description: this.client.description,
+                adress: this.client.address,
+            })
+            .then(response => {
+                console.log(response.data.data);
+                this.$emit('client', response);
+            })
+            .catch(error => console.log(error));
+            this.client.name = '';
+            this.client.logo = '';
+            this.client.address = '';
+            this.client.description = '';
+        },
+</script>
+```

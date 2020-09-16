@@ -1,34 +1,59 @@
 # VUE JS : Axios
 
-## Description
+## Envoyer des données
 
 ```js
-new Vue({
-  el: '#app',
-  data () {
-    return {
-      info: null
+export default {
+    data: () => ({
+        images: null,
+    }),
+    created(){
+        axios.get('/images')
+            .then(response => {
+                this.images = response.data.data;
+                console.log(this.images);
+            })
+            .catch(error => console.log(error)
+            );
+    },
+}
+```
+
+## Recevoir des données
+
+```vue
+<template>
+    <div>
+        <input type="text" class="form-control" v-for="name">
+        <input type="file" class="form-control" @change="selectFile">
+
+        <button type="button" @click="store" class="btn btn-primary">Ajouter</button>
+    
+    </div>
+</template>
+
+<script>
+
+export default {
+    data: () => ({
+        name: 'image',
+        photo: null,
+    }),
+
+    methods: {
+        selectFile(event) {
+            this.photo = event.target.files[0];
+        },
+        store(){
+            const data = new FormData();
+            data.append('folder', this.photo);
+            data.append('name', this.name);
+
+            axios.post('/images',data)
+            .then(response => console.log(response))
+            .catch(error => console.log(error));
+        }
     }
-  },
-  mounted () {
-    axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (this.info = response))
-      .catch(error => console.log(error))
-  }
-})
-```
-
-```html
-<div id="app">
-  {{ info }}
-</div>
-```
-
-## Vue Project 
-
-Dans un projet Vue il faut importer axios pour l'utiliser dans un composant.
-
-```js
-const axios = require('axios').default;
+}
+</script>
 ```

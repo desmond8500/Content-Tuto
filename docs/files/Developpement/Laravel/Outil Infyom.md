@@ -20,7 +20,7 @@ Pour Aminlte
 Pour Core UI
 ```bash
   git clone https://github.com/InfyOmLabs/coreui-generator.git
-  cd adminlte-generator
+  cd coreui-generator
   composer install
 ```
 
