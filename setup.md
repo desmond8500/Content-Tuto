@@ -27,7 +27,7 @@
 * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 * [Free download manager](https://www.freedownloadmanager.org/fr/)
 * [TrueCrypt](https://www.truecrypt71a.com/downloads/)
-* [text](htt)
+
 
 ## Medias
 
