@@ -93,7 +93,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname+'/myProject/index.html')) // Chemin vers le fichier html du projet angular
 })
 
-app.listen(process.env.PORT, '0.0.0.0', function () {
+app.listen(process.env.PORT, function () {
   console.log('Example app started!')
 })
 ```
