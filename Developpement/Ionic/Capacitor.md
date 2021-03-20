@@ -40,3 +40,12 @@ exécuter
 ```
 npx cap open android
 ```
+
+## Live run
+
+```bash
+ionic build
+ionic cap add android
+ionic cap copy
+ionic cap sync
+```
