@@ -8,4 +8,4 @@
 
 ## Logiciels à installer
 
-[Logiciels](../tools/setup)
+[Logiciels](../logiciels)

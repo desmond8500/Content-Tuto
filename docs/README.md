@@ -12,4 +12,4 @@
 
 ## Outils et liens utiles
 
-* [Logiciels](tools/setup)
+* [Outils](tools)

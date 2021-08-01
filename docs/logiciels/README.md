@@ -1,4 +1,4 @@
-# Installation d'un PC
+# Logiciels
 
 ## Développement
 
@@ -44,6 +44,7 @@
 * [Photofiltre](http)
 * [Nanocad](http)
 * [Autocad Trueview 2020](http)
+* [Lunacy](lunacy)
 
 ## Finance
 

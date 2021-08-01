@@ -1,4 +1,5 @@
-# HTML et CSS
+# Ressources HTML et CSS
+
 
 ## Description
 
@@ -71,3 +72,19 @@ le **CSS** (Cascading Style Sheets) permet de faire la mise en forme.
 ## Animation
 
 * [Animaker](https://tool.animaker.fr/dashboard)
+
+## Animation
+
+* [Animate](https://animate.style/)
+* [Card flip](card_flip)
+* [Card flip2](card_flip2)
+* [Hover display](https://www.w3schools.com/howto/howto_css_display_element_hover.asp) 
+
+## Color and typography
+
+* [Sand color fonts](https://www.colorsandfonts.com/)
+* [Font fabric](https://www.fontfabric.com/)
+* [Compress image](https://compressor.io/)
+
+## Carousel
+* [Source](https://kenwheeler.github.io/slick/)
