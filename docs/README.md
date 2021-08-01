@@ -1,5 +1,9 @@
 # Tutoriels
 
+## CMS
+
+* [Odoo](cms/odoo)
+
 ## Developpement
 
 * [Electronique](electronique/gpio)
