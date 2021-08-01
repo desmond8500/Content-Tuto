@@ -1,3 +1,0 @@
-# Thelia
-
-## Description

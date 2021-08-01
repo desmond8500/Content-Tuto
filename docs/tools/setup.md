@@ -13,6 +13,7 @@
 
 * [Ionic](https://ionicframework.com/docs/intro/cli)
 * [Vue](https://cli.vuejs.org/guide/installation.html)
+* [Angular]()
 
 ## Gaming
 
@@ -39,3 +40,7 @@
 * [Photofiltre](http)
 * [Nanocad](http)
 * [Autocad Trueview 2020](http)
+
+## Finance
+
+* [Manta](https://electronjs.org/apps/manta)
