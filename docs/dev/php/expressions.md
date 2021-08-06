@@ -1,11 +1,18 @@
-# Nouveautés php
+# Expressions régulières
 
-### Tests condionnels
+## Condition
+
+### Test conditionel
+
+```php
+if($a==0) (echo hello)
+```
+
 ```php
 $name = $_POST['name'] ?? $_POST['username'] ?? 'salut';
 ```
 
-### test opérateur ternaire
+### Test opérateur ternaire
 ```php
 (condition) ? instruction si vrai : instruction si faux
 ```
