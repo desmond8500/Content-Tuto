@@ -13,6 +13,7 @@ $name = $_POST['name'] ?? $_POST['username'] ?? 'salut';
 ```
 
 ### Test opérateur ternaire
+
 ```php
 (condition) ? instruction si vrai : instruction si faux
 ```

@@ -1,6 +1,6 @@
 # PHP: Dates
 
-## Nombre de jours entre deux dates
+## Déterminer le nombre de jours entre deux dates
 
 ```php
 $date = date('Y-m-d H:i:s'); // Date du jour
@@ -11,7 +11,7 @@ $nbJoursTimestamp = $date2 - $date1; // difference
 $nbJours = $nbJoursTimestamp / 86400; // conversion en jours
 ```
 
-Récupérer la différence de jours entre une date et la date actuelle.
+## Récupérer la différence de jours entre une date et la date actuelle
 
 ```php
 public function getDays($date){
@@ -29,7 +29,8 @@ $date2 = strtotime('2012-08-14 16:01:05');
 $diff  = abs($date1 - $date2);
 ```
 
-Calculer la différence de jours entre deux dates.
+## Calculer la différence de jours entre deux dates
+
 ```php
 public function dateDiff($start,$end){
     $date1 = strtotime($start);
