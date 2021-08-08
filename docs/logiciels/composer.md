@@ -19,4 +19,5 @@ sudo apt-get install composer
 ## Sources
 
 * [Site Officiel](https://getcomposer.org/)
+* [Téléchargement](https://getcomposer.org/download/)
 * [Composer update or install](https://medium.com/@favoriabs/composer-install-vs-composer-update-3737357c35a7)

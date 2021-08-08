@@ -12,8 +12,6 @@ Nous allons installer Odoo sur un serveur virtuel sous VirtualBox avec Ubuntu 18
 Au moment de l'installation il faudra veiller à ne pas utilise "odoo" comme nom d'utilisateur.  
 Nous allons installer **Openssh-server** pour pouvoir travailler plus facilement.
 
-
-
 ## Installation online
 
 1. Créer un compte chez [Alwaysdata](http://alwaysdata.com/);  

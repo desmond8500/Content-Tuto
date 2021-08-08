@@ -2,12 +2,12 @@
 
 ## Développement
 
-* [Composer](https://getcomposer.org/download/)
+* [Composer](composer)
 * [NodeJS](https://nodejs.org/en/download/)
 * [Git](https://nodejs.org/en/download/)
 * [Gitkraken]()
 * [PHP](https://www.php.net/downloads.php)
-* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Visual Studio Code](visual_studio)
 
 ## Internet
 
