@@ -2,23 +2,21 @@
 
 ## Description
 
+## Softdeletes
 
-## Stocker des données
+Dans le modèle :
 
 ```php
-// validation
-request()->validate([
-    'content'=>['required'],
-]);
-
-// Ajout du commentaire
-Comment::create(
-    "name"      =>  "test",
-    "password"  =>  "passer"
-);
+use Softdeletes;
 ```
 
-## Requete like 
+Dans la migration
+
+```php
+$table->softDeletes();
+```
+
+## Requete like
 
 ```php
 public function search(Request $request){
