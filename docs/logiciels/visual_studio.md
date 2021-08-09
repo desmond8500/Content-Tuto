@@ -12,6 +12,17 @@
 
 ### PHP
 
-* PHP Awosome Snippets, 
+* PHP Awosome Snippets
 
-## Ionic
+### Laravel
+
+* Laravel Blade Snippets
+* Laravel Blade Spacer
+* Laravel Extra Intellisense
+* Laravel goto view
+* Laravel goto controller
+* Laravel Snippets
+
+### Autre
+
+* Markdownlint
