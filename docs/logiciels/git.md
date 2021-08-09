@@ -4,6 +4,10 @@
 
 C'est un gestionnaire de dépendances qui permet de faciliter le développment d'applications.
 
+## Installation
+
+[Télécharger](https://nodejs.org/en/download/)
+
 ## Utilisation
 
 ```bash
