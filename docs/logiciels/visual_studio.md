@@ -6,8 +6,12 @@
 
 ## Extensions
 
+## Général
+
+* Project manager, ouvrir les projets courants dans VS code
+
 ### PHP
 
-* PHP Awosme Snippets
+* PHP Awosome Snippets, 
 
 ## Ionic

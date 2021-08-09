@@ -4,7 +4,7 @@
 
 * [Composer](composer)
 * [NodeJS](https://nodejs.org/en/download/)
-* [Git](https://nodejs.org/en/download/)
+* [Git](git)
 * [Gitkraken]()
 * [PHP](https://www.php.net/downloads.php)
 * [Visual Studio Code](visual_studio)
