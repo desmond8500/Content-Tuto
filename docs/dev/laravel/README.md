@@ -1,8 +1,9 @@
 # Laravel
 
-## Description
+## Fonctionalités
 
 * [Eloquent](eloquent)
+* [Envoie de mail](mail)
 
 ## Librairies
 
