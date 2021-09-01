@@ -23,6 +23,10 @@
 * Laravel goto controller
 * Laravel Snippets
 
+### Vue JS
+
+* Volar (pour la syntaxe)
+
 ### Autre
 
 * Markdownlint

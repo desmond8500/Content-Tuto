@@ -2,12 +2,12 @@
 
 ## Description
 
-C'est un framemork frontend Javascript très populaire et pratique pour concevoir
-des **SPA** (Single Page Application).
+C'est un framemork frontend Javascript très populaire et pratique pour concevoir des **SPA** (Single Page Application).
 
 ## Installation
 
 Télécharger et installer NodeJS pour disposer de node et de npm
+
 1. Installer **Angular CLI**
 
   ```bash
@@ -29,7 +29,9 @@ Télécharger et installer NodeJS pour disposer de node et de npm
 
 1. Lancer la page [Lien](http://localhost:4200/)
 
-## Ressources Utiles
+## Sources
+
+* [Angular](https://angular.io/)
 
 ### Angular Templates
 

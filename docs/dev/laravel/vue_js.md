@@ -1,4 +1,4 @@
-# Laravel : Vue JS 
+# Laravel : Vue JS
 
 ## Description
 
@@ -6,14 +6,14 @@ Vue JS est un framework javascript très populaire qui peut être facilement int
 
 ## Installation
 
-Avec la version 6 de Laravel il faut installer VueJS avec composer il n'est pas intégré de base 
+Avec la version 6 de Laravel il faut installer VueJS avec composer il n'est pas intégré de base.
 
-```bash
+```sh
 composer require laravel/ui:^1.0 --dev
 php artisan ui vue
 npm install
 npm run watch
-``` 
+```
 
 il faut ensuite ajouter vue au projet 
 
@@ -78,6 +78,7 @@ Le template doit toujours commencer avec une div de base
 ### Envoi et receoption de données
 
 Envoi
+
 ```html
 <form #submit.prevent="send">
     <input v-model="message" placeholder="modifiez-moi">
@@ -91,15 +92,18 @@ send(){
         message: 'My message'
     })
 }
-``` 
+```
 
 reception
 Avec blade on récupère les données que l'on passe au js
+
 ```php
 <div-component :comments="{{ $comments }}" >
 </div-component>
 ```
+
 Ensuite dans la partie js il faut déclarer la variable à traiter
+
 ```js
 export default{
     props: ['comments'],
@@ -109,8 +113,7 @@ export default{
         }
     }
 }
-``` 
-
+```
 
 ## SPA avec Vue
 
@@ -170,5 +173,3 @@ dans le fichier html
 </body>
 </html>
 ```
-
-

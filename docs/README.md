@@ -6,6 +6,7 @@
 
 ## Developpement
 
+* [Angular](dev/angular)
 * [Alpine JS](dev/alpine_js)
 * [Electronique](electronique/gpio)
 * [Vuepress](dev/vue_js/vuepress)
