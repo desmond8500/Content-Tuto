@@ -1,4 +1,4 @@
-# Laravel : Routage
+# Laravel 8: Routage
 
 ## Description
 Gestion des la navigation.
@@ -8,7 +8,7 @@ Gestion des la navigation.
 Dans le fichier *routes/web.php* il faut créer la route avec le nom.
 
 ```php
-Route::get('fichier/{arg?}', 'IndexController@index')->name('index');
+Route::get('fichier/{arg?}', ['ControllerName', 'method'])->name('index');
 ```
 La route que nous avons crée :
 
@@ -18,7 +18,7 @@ La route que nous avons crée :
 Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec un argument:
 
 ```html
-<a href="{!! route ('index',['arg' => 'arg']) !!}">Mon lien</a>
+<a href="{{ route ('index',['arg' => 'arg']) }}">Mon lien</a>
 ```
 
 ## Routes
