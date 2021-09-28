@@ -4,7 +4,7 @@
 
 Package laravel qui permet de générer des documents word.
 
-## Installation 
+## Installation
 
 ```sh
 composer require phpoffice/phpword
