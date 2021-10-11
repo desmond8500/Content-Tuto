@@ -8,9 +8,9 @@ Nous avons parfois besoin de générer des fichiers PDFs pour des devis, des fac
 
 1. Installer la librairie
 
-```shell
-composer require barryvdh/laravel-dompdf
-```
+    ```shell
+    composer require barryvdh/laravel-dompdf
+    ```
 
 1. Configurer la librairie dans le fichier `/config/app.php`
 
@@ -60,9 +60,8 @@ composer require barryvdh/laravel-dompdf
 }
 ```
 
-
-
 ## Source
 
-* [Tuto](https://www.itsolutionstuff.com/post/laravel-57-generate-pdf-from-html-exampleexample.html)
-* [barryvdh](https://github.com/barryvdh/laravel-dompdf)
+- [Tuto](https://www.itsolutionstuff.com/post/laravel-57-generate-pdf-from-html-exampleexample.html)
+- [barryvdh](https://github.com/barryvdh/laravel-dompdf)
+- [Our code World](https://ourcodeworld.com/articles/read/687/how-to-configure-a-header-and-footer-in-dompdf)

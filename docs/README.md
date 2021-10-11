@@ -8,6 +8,7 @@
 
 * [Angular](dev/angular)
 * [Alpine JS](dev/alpine_js)
+* [Ionic](dev/ionic)
 * [Electronique](electronique/gpio)
 * [Vuepress](dev/vue_js/vuepress)
 * [Laravel](dev/laravel/README.MD)
