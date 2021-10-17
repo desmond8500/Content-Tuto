@@ -2,6 +2,7 @@
 
 ## Fonctionalités
 
+* [Laravel 8](laravel_8)
 * [Eloquent](eloquent)
 * [Envoie de mail](mail)
 

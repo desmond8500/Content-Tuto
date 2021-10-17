@@ -14,6 +14,9 @@
 * [Laravel](dev/laravel/README.MD)
 * [Libraries](librairies)
 
+## Divers
+
+* [Configuration de mails OVH](divers/mail_ovh)
 
 ## Systèmes
 
