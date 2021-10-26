@@ -25,3 +25,9 @@
 ## Outils et liens utiles
 
 * [Outils](tools)
+
+## Liens
+
+* [Vuepress Emoji](https://github.com/ikatyang/emoji-cheat-sheet)
+
+[[toc]]

@@ -1,19 +1,21 @@
 # Laravel : Routage
 
 ## Description
-Gestion des la navigation.
+
+Gestion de la navigation.
 
 ## Utilisation
 
-Dans le fichier *routes/web.php* il faut créer la route avec le nom.
+Dans le fichier _routes/web.php_ il faut créer la route avec le nom.
 
 ```php
 Route::get('fichier/{arg?}', 'IndexController@index')->name('index');
 ```
+
 La route que nous avons crée :
 
-* fichier = chemin
-* arg = argument facultatif
+- fichier = chemin
+- arg = argument facultatif
 
 Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec un argument:
 
@@ -27,8 +29,9 @@ Et dans un fichier blade nous utilisons le code suivant pour créer un lien avec
 
 ```php
 Route::get('users/{id}', function ($id) {
+
 });
-``` 
+```
 
 ### Route avec une vue
 
@@ -39,7 +42,9 @@ Route::view('URI', 'viewName');
 ### Route avec un controlleur
 
 ```php
-Route::get('users/{id}', 'Controller@method');
+use App\Http\Controllers\PageController;
+
+Route::get('page', [PageController::class, 'action']);
 ```
 
 ### Route avec une nom
@@ -47,3 +52,4 @@ Route::get('users/{id}', 'Controller@method');
 ```php
 Route::view('URI', 'viewName')->name('nom');
 
+```
