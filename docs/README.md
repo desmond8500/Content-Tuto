@@ -6,6 +6,7 @@
 
 ## Developpement
 
+* [CSS](dev/html_css/polices)
 * [Angular](dev/angular)
 * [Alpine JS](dev/alpine_js)
 * [Ionic](dev/ionic)
@@ -29,5 +30,3 @@
 ## Liens
 
 * [Vuepress Emoji](https://github.com/ikatyang/emoji-cheat-sheet)
-
-[[toc]]
