@@ -2,16 +2,15 @@
     <link rel="stylesheet" href="{{ asset('bt/css/tuto.css') }}">
 
     <div class="row">
-        @if ($file)
         <div class="col-md-9 mb-2">
-            <div class="card">
-                <div class="card-body">
-                    @parsedown($file)
+            @if ($file)
+                <div class="card">
+                    <div class="card-body">
+                        @parsedown($file)
+                    </div>
                 </div>
-            </div>
+            @endif
         </div>
-
-        @endif
         <div class="col-md-3">
             @foreach ($tags as $tag)
                 <a class="btn btn-sm btn-outline-light mb-1 @if($categorie==$tag->name) active @endif " wire:click="$set('categorie','{{ $tag->name }}')" >{{ ucfirst($tag->name) }}</a>
