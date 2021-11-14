@@ -22,6 +22,7 @@
             }
         }
         body{
+            /* background: #F6F8FA; */
             background: #116979;
         }
     </style>
