@@ -16,7 +16,7 @@
                 <a class="btn btn-sm btn-outline-light mb-1 @if($categorie==$tag->name) active @endif " wire:click="$set('categorie','{{ $tag->name }}')" >{{ ucfirst($tag->name) }}</a>
             @endforeach
             <div class="list-group">
-                @foreach ($list as $item)
+                @foreach ($list->sortBy('name') as $item)
                     <a href="{{ route("index", ["file_id"=>$item->id, "categorie"=>$categorie]) }}" type="button" class="list-group-item list-group-item-action @if($file_id==$item->id) active @endif">{{ $item->name }}</a>
                 @endforeach
             </div>

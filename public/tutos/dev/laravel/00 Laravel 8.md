@@ -18,3 +18,9 @@ DB_CONNECTION=sqlite
 ```sh
 php artisan migrate
 ```
+
+## Utiliser un autre port
+
+```bash
+php artisan serve --port 8001
+```
