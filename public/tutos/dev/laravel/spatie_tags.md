@@ -19,24 +19,27 @@ php artisan migrate
 Il faut déjà lier les tags au modèle
 
 ```php
-use HasTags;
+use \Spatie\Tags\HasTags;
 ```
 
 Ajouter des tags
 
 ```php
-//adding a single tag
+// Ajouter un tag
 $model->attachTag('tag 1');
+$model->attachTag('tag 1', 'type');
 
-//adding multiple tags
+// Ajouter plusieurs tags
 $model->attachTags(['tag 2', 'tag 3']);
+$model->attachTags(['tag 2', 'tag 3'], 'type');
 ```
 
 Supprimer des tags 
 
 ```php
-//using a string
+// using a string
 $yourModel->detachTag('tag 1');
+$yourModel->detachTag('tag 1', 'type');
 
 //using an array
 $yourModel->detachTags(['tag 2', 'tag 3']);

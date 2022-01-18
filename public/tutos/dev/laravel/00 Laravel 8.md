@@ -11,7 +11,7 @@ Laravel est un framework PHP créé par Taylor Otwell.
 * [Visual Studio code](https://code.visualstudio.com/download) (Est un éditeur de texte)
 * [Laragon](https://laragon.org/download/) (Serveur http, de base de donnée très performant)
 
-## Projet laravel simple
+## Projet laravel simple avec Sqlite comme base de donnée
 
 Créer le projet Laravel :
 
@@ -43,11 +43,12 @@ php artisan serve
 php artisan serve --port 8001
 ```
 
-## Outils 
+## Outils
 
 ### Modélisation de la base de donnée
 
-Pour modélier votre base de donnée vous pouvez utilier [Laravel Schema Designer](https://www.laravelsd.com/) pour le faire plus facilement. En plus ce site vous permet: 
+Pour modélier votre base de donnée vous pouvez utilier [Laravel Schema Designer](https://www.laravelsd.com/) pour le faire plus facilement. En plus ce site vous permet:
+
 * de sauvegarder vos modèles de données
 * de partager vos modèles de données
 * de générer les controlleurs, les modèles et les migrations
@@ -59,7 +60,8 @@ Pour modélier votre base de donnée vous pouvez utilier [Laravel Schema Designe
 C'est un puissant outil qui permet de générer très rapidement des CRUDs, des APIs, des tests unitaires et une documentation avec Swagger. 
 Il vous permet de gérer tout cela avec un backoffice qui utilise le theme CoreUI ou adminlte2.
 
-Le répo git: 
+Le répo git:
+
 ```shell
 git clone https://github.com/InfyOmLabs/coreui-generator.git mon_projet
 ```
