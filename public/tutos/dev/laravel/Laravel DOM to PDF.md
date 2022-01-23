@@ -2,7 +2,7 @@
 
 ## Description
 
-Nous avons parfois besoin de générer des fichiers PDFs pour des devis, des factures etc. 
+Nous avons parfois besoin de générer des fichiers PDFs pour des devis, des factures etc.
 
 ## Installation
 
@@ -57,6 +57,22 @@ Nous avons parfois besoin de générer des fichiers PDFs pour des devis, des fac
 @page{
     margin-top: 50px;
 }
+```
+
+## Afficher le fichier PDF
+
+```php
+    public function generatePDF()    {
+        $data = ['title' => 'Welcome to HDTuto.com'];
+        $pdf = \PDF::loadView('myPDF', $data);
+        return $pdf->stream('download.pdf');
+    }   
+```
+
+## Stocker le fichier PDF
+
+```php
+    return PDF::loadFile(public_path().'/myfile.html')->save('/path-to/my_stored_file.pdf')->stream('download.pdf');
 ```
 
 ## Source
