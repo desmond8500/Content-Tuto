@@ -22,12 +22,12 @@ code + `PROG` + 60 + code
 
 ## Ajouter un code utilisateur utilisateur
 
-4321 + `PROG` + 63 + code + `PROG` = utilisateur 3  
-4321 + `PROG` + 64 + code + `PROG` = utilisateur 4  
-4321 + `PROG` + 65 + code + `PROG` = utilisateur 5  
-4321 + `PROG` + 66 + code + `PROG` = utilisateur 6  
-4321 + `PROG` + 67 + code + `PROG` = utilisateur 7  
-4321 + `PROG` + 68 + code + `PROG` = utilisateur 8
+4321 + `PROG` + 63 + code + `PROG` = user 3  
+4321 + `PROG` + 64 + code + `PROG` = user 4  
+4321 + `PROG` + 65 + code + `PROG` = user 5  
+4321 + `PROG` + 66 + code + `PROG` = user 6  
+4321 + `PROG` + 67 + code + `PROG` = user 7  
+4321 + `PROG` + 68 + code + `PROG` = user 8
 
 ## Visualiser le numero d'utiliasteur
 
@@ -39,12 +39,12 @@ code + `PROG` + 79
 
 ## Habiliter un code utilisateur
 
-4321 + `PROG` + 73 + 1 + `PROG` = type utilisateur 1  
-4321 + `PROG` + 74 + 1 + `PROG` = type utilisateur 1  
-4321 + `PROG` + 75 + 1 + `PROG` = type utilisateur 1  
-4321 + `PROG` + 76 + 1 + `PROG` = type utilisateur 1  
-4321 + `PROG` + 77 + 1 + `PROG` = type utilisateur 1  
-4321 + `PROG` + 78 + 1 + `PROG` = type utilisateur 1
+4321 + `PROG` + 73 + 1 + `PROG` = type user 1  
+4321 + `PROG` + 74 + 1 + `PROG` = type user 1  
+4321 + `PROG` + 75 + 1 + `PROG` = type user 1  
+4321 + `PROG` + 76 + 1 + `PROG` = type user 1  
+4321 + `PROG` + 77 + 1 + `PROG` = type user 1  
+4321 + `PROG` + 78 + 1 + `PROG` = type user 1
 
 ## Temporisations
 
