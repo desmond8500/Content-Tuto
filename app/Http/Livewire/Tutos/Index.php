@@ -10,28 +10,28 @@ use Spatie\Tags\Tag;
 
 class Index extends Component
 {
-    public $file, $file_id, $categorie;
+    public $file, $file_name, $folder_name;
 
-    public function mount($file_id=null, $categorie=null)
+    public function mount($file_name=null, $folder_name=null)
     {
-        $this->file_id = $file_id;
-        $this->categorie = $categorie;
+        $this->file_name = $file_name;
+        $this->folder_name = $folder_name;
         $this->getFile();
     }
     public function render()
     {
         return view('livewire.tutos.index',[
-            "list" => Tutoriel::withAnyTags($this->categorie)->get(),
-            "tags" => Tag::all(),
+            // "list" => Tutoriel::withAnyTags($this->folder_name)->get(),
+            // "tags" => Tag::all(),
             "file" => $this->file,
         ])->extends('tutos.layout')->section('content');
     }
 
     public function getFile()
     {
-        if ($this->file_id) {
-            $file = Tutoriel::find($this->file_id);
-            $content = file_get_contents("tutos/$file->folder");
+        if ($this->file_name) {
+            // $file = Tutoriel::find($this->file_name);
+            $content = file_get_contents("tutos/$this->folder_name/$this->file_name");
             $this->file = $content;
         }else{
             $this->file = null;
