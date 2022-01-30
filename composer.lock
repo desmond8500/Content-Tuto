@@ -3034,16 +3034,16 @@
         },
         {
             "name": "rezaamini-ir/migrator",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rezaamini-ir/migrator.git",
-                "reference": "0dcbc8b401ab116f6da7c0b46e41814c7a341a33"
+                "reference": "5626c4c864c48315a122df2a7f547cbec34c21dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rezaamini-ir/migrator/zipball/0dcbc8b401ab116f6da7c0b46e41814c7a341a33",
-                "reference": "0dcbc8b401ab116f6da7c0b46e41814c7a341a33",
+                "url": "https://api.github.com/repos/rezaamini-ir/migrator/zipball/5626c4c864c48315a122df2a7f547cbec34c21dd",
+                "reference": "5626c4c864c48315a122df2a7f547cbec34c21dd",
                 "shasum": ""
             },
             "require": {
@@ -3081,9 +3081,9 @@
             "description": "Migrator is a GUI migration manager for Laravel.",
             "support": {
                 "issues": "https://github.com/rezaamini-ir/migrator/issues",
-                "source": "https://github.com/rezaamini-ir/migrator/tree/1.5.2"
+                "source": "https://github.com/rezaamini-ir/migrator/tree/1.5.3"
             },
-            "time": "2022-01-10T12:35:05+00:00"
+            "time": "2022-01-25T18:50:07+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
