@@ -15,23 +15,13 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 @foreach (glob("tutos/$menu/*") as $submenu)
-                                <li><a class="dropdown-item" >{{ ucfirst(basename($submenu)) }}</a></li>
+                                <li><a class="dropdown-item" href="{{ route("index", ["file_name"=>basename($submenu), "folder_name"=>basename($menu)]) }}">{{ ucfirst(basename($submenu)) }}</a></li>
                                 @endforeach
                             </ul>
                         </li>
                     @endforeach
 
-                    {{-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            @foreach ($menus as $menu)
-                                <li><a class="dropdown-item" href="{{ route("index",['folder'=>$menu]) }}">{{ ucfirst($menu) }}</a></li>
-                            @endforeach
-                        </ul>
-                    </li> --}}
+         
                     <li class="nav-item">
                         <div wire:loading class="my-2">
                           <div class="spinner-border" role="status"></div>
