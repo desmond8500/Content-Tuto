@@ -13,7 +13,8 @@
 * [Electronique](electronique/gpio)
 * [Vuepress](dev/vue_js/vuepress)
 * [Laravel](dev/laravel/README.MD)
-* [Libraries](librairies)
+* [Javascript](dev/javascript/README.MD)
+* [Libraries](dev/library)
 
 ## Divers
 
