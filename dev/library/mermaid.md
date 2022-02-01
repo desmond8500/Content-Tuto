@@ -14,5 +14,5 @@ Importer le CDN suivant :
 
 ## Source
 
-* [Instalaltion](https://mermaid-js.github.io/mermaid/#/./n00b-gettingStarted?id=requirements-for-the-mermaid-api)
+* [Installation](https://mermaid-js.github.io/mermaid/#/./n00b-gettingStarted?id=requirements-for-the-mermaid-api)
 * [Modèles](https://mermaid-js.github.io/mermaid/#/)

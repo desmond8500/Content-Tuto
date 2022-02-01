@@ -2,8 +2,10 @@
 
 ## Codes par défaut
 
-Techncien 1234  
-Master 4321
+| Role | Code |
+|:--|:--|
+| Technicien | 1234 |
+| Master | 4321 |
 
 ## Armer/désarmer le système
 
@@ -22,12 +24,18 @@ code + `PROG` + 60 + code
 
 ## Ajouter un code utilisateur utilisateur
 
-4321 + `PROG` + 63 + code + `PROG` = user 3  
-4321 + `PROG` + 64 + code + `PROG` = user 4  
-4321 + `PROG` + 65 + code + `PROG` = user 5  
-4321 + `PROG` + 66 + code + `PROG` = user 6  
-4321 + `PROG` + 67 + code + `PROG` = user 7  
-4321 + `PROG` + 68 + code + `PROG` = user 8
+| # | Role | code |
+|:--|:--|:--|
+| 1 | Master | 61 |
+| 2 | Technicien | 62 |
+| 3 | User | 63 |
+| 4 | User | 64 |
+| 5 | User | 65 |
+| 6 | User | 66 |
+| 7 | User | 67 |
+| 8 | User | 68 |
+
+Exemple : 4321 + `PROG` + 63 + code + `PROG` = user 3  
 
 ## Visualiser le numero d'utiliasteur
 

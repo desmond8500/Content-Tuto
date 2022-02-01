@@ -17,7 +17,7 @@ git merge master
 git push --set-upstream origin dev-diene
 ```
 
-## Workflow 
+## Workflow
 
 master = master  
 develop = beta  test  
