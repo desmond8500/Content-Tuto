@@ -2,8 +2,6 @@
 
 ## Description
 
-
-
 ## Installation
 
 1. Créer un projet Laravel

@@ -8,11 +8,11 @@ Nous allons utiliser les tables suivantes:
 User : prenom, nom
 Tel: numero
 
-## Relation One to one 
+## Relation One to one
 
 Un utilisateur a un numéro de téléphone.
 
-### Modèle user 
+### Modèle user
 
 ```php
 public function comments()
@@ -20,6 +20,7 @@ public function comments()
     return $this->hasOne('App\Models\Tel');
 }
 ```
+
 ### Modèle tel
 
 ```php
@@ -35,13 +36,11 @@ public function comments()
 $tel = User::find(1)->tel;
 ```
 
-
-
 ## Relation One to many 
 
 Un utilisateur peux avoir plusieurs numéros de téléphones.
 
-### Modèle user 
+### Modèle user
 
 ```php
 public function comments()
@@ -49,6 +48,7 @@ public function comments()
     return $this->hasOne('App\Models\Tel');
 }
 ```
+
 ### Modèle tel
 
 ```php
