@@ -2,5 +2,5 @@
 
 ## Table des matière
 
-[Github](github.md)
-[Gitlab](gitlab.md)
+* [Github](github.md)
+* [Gitlab](gitlab.md)
