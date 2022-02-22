@@ -67,6 +67,38 @@ export class BookFormComponent {
 <button type="submit" (click)="submitBook()">SUBMIT</button>
 ```
 
+## Custom file input
+
+```htm
+<div class="upload">
+  <label class="custom-file-upload">
+    <ion-input type="file"></ion-input>
+    <ion-icon name="card-outline"></ion-icon>
+  </label>
+</div>
+```
+
+```css
+.custom-file-upload {
+  border: 1px solid #8c8c8c;
+  background: #8c8c8c;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.upload{
+  display: flex;
+  justify-content: center;
+}
+```
+
 ## Source
 
 * [Marmicode](https://guide-angular.wishtack.io/angular/formulaires/reactive-forms/la-boite-a-outils-des-reactive-forms)
