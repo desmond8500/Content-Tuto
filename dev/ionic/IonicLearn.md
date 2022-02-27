@@ -1,12 +1,15 @@
 # Ionic 4
 
-### Get Started
-```
+## Get Started
+
+```console
 ionic start
 ```
 
-### Change text with a button
+## Change text with a button
+
 In the html file :
+
 ```html
 <ion-content>
   <p>{{ text }}</p>
@@ -15,6 +18,7 @@ In the html file :
 ```
 
 In the typescript file
+
 ```ts
 text ="Hello";
 onChangeText(){
@@ -23,51 +27,72 @@ onChangeText(){
 ```
 
 ### transform Simple html file to ionic app
+
 use
+
 ```html
 <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
 <link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
 ```
 
-
 ### Publish Ionic app with capacitor
+
 We have to build the app first
-```
+
+```console
 ng build
 ```
+
 then we create the android project
-```
+
+```console
 ionic capacitor add android
 ionic capacitor copy android
 ```
+
 to lauch the app do
-```
+
+```console
 ionic capacitor run android
 ```
 
 ### After cloning a repo
+
 do
-```
+
+```console
 npm install
 ```
+
 In oder to install dépendencies
 
-### css
-#### Define
+## css
+
+### Define
+
 To set global variables css go to **src/theme/variables.scss** and set the background
-```
+
+```css
 --ion-background-color: #ff3700;
 ```
+
 ### Http requests
+
 1. Create a service
-```
+   
+```console
 ionic g service data
 ```
-2. Import the service into the **ts file** of the page, in this case the file is in a subfolder **service**
-```
+
+1. Import the service into the **ts file** of the page, in this case the file is in a subfolder **service**
+   
+```ts
 import { UsersService } from '../../service/data.service';
+
 ```
-3. in the data service file
+
+1. in the data service file
+
 ```
 import { HttpClient } from '@angular/common/http';
 ```
