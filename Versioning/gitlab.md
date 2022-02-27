@@ -5,7 +5,7 @@
 Pour pouvoir cloner des répos sur gitlab il faut ajouter une clé ssh au compte.  
 Il faut dans un premier temps générer une clé.
 
-1. Dans le terminal :
+1. Dans un terminal il faut lancer la commande suivante :
 
     ```bash
     ssh-keygen -t rsa
@@ -16,7 +16,9 @@ Il faut dans un premier temps générer une clé.
 1. La clé est ensuite générée
 1. IL faudra ensuite ouvrir le fichier `C:/Utilisateurs/votre_nom_d'utilisateur/.shh/id_rsa.pub` avec un bloc note et copier son contenu
 1. Ouvrez ensuite votre compte gitlab, sur votre compte, préférences, puis clé shh
+
    ![imd](img/pseudo.png)
+
    ![imd](img/menu.png)
 1. Vous mettez le contenu de la clé ssh dans le formulaire puis vous définissez la date d'expiration.
    ![img](img/cle.png)
