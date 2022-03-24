@@ -16,7 +16,7 @@
     protected $connection = 'sqlite';
     ```
 
-* Définir les champs qui ne seront pas retournés par les API 
+* Définir les champs qui ne seront pas retournés par les API
 
     ```php
     protected $hidden = [
@@ -24,6 +24,13 @@
         'remember_token',
     ];
     ```
+
+* Définir le modèles parents à retourner
+
+  ```php
+    protected $with = [
+        'model',
+    ];
 
 ## Ajouter des methodes au modèle
 

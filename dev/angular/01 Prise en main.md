@@ -23,3 +23,7 @@
   ```
 
 1. Lancer la page [Lien](http://localhost:4200/)
+
+## Source
+
+* [Installation](https://angular.io/cli)
