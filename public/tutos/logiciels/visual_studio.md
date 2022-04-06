@@ -9,6 +9,7 @@
 ## Général
 
 * Project manager, ouvrir les projets courants dans VS code
+* thunder Client, Equivalent de postman
 
 ### PHP
 
@@ -22,6 +23,14 @@
 * Laravel goto view
 * Laravel goto controller
 * Laravel Snippets
+* Artisan
+* laravel blade spacer
+* laravel goto controller
+* laravel goto components
+* livewire goto
+* DotEnv
+* Vscode great icons
+* Database client
 
 ### Vue JS
 

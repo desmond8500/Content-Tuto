@@ -1,6 +1,7 @@
 # Composants
 
 ## Description
+
 Permet de créer des attributs ou des methodes et de les appeler dans le template
 
 ```typescript
