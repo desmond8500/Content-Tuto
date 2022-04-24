@@ -1,7 +1,5 @@
 # Tutoriels
 
-test
-
 ## CMS
 
 * [Odoo](cms/odoo)
