@@ -6,15 +6,15 @@
 
 ## Developpement
 
-* [CSS](dev/html_css/polices)
-* [Angular](dev/angular)
-* [Alpine JS](dev/alpine_js)
-* [Ionic](dev/ionic)
-* [Electronique](electronique/gpio)
-* [Vuepress](dev/vue_js/vuepress)
-* [Laravel](dev/laravel/README.MD)
-* [Javascript](dev/javascript/README.MD)
-* [Libraries](dev/library)
+* [CSS](public/tutos/dev/html_css/polices)
+* [Angular](public/tutos/dev/angular)
+* [Alpine JS](public/tutos/dev/alpine_js)
+* [Ionic](public/tutos/dev/ionic)
+* [Electronique](public/tutos/electronique/gpio)
+* [Vuepress](public/tutos/dev/vue_js/vuepress)
+* [Laravel](public/tutos/dev/laravel/README.MD)
+* [Javascript](public/tutos/dev/javascript/README.MD)
+* [Libraries](public/tutos/dev/library)
 
 ## Divers
 
@@ -22,7 +22,7 @@
 
 ## Systèmes
 
-* [Systèmes d'exploitation](os)
+* [Systèmes d'exploitation](public/tutos/os)
 
 ## Outils et liens utiles
 
