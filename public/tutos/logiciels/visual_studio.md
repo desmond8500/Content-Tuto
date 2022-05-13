@@ -34,7 +34,8 @@
 
 ### Vue JS
 
-* Volar (pour la syntaxe)
+* **Volar** (pour la syntaxe)2
+* **Vue inline** for inline template highlighting 
 
 ### Autre
 
