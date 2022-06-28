@@ -4,6 +4,12 @@
 
 Directus est un CMS NodeJS
 
+## Lancer le projet
+
+```console
+npx directus start
+```
+
 ## Sources
 
 * [Site officiel](https://directus.io/)
